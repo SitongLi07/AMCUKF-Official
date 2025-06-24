@@ -1,3 +1,4 @@
+markdown
 # AMCUKF-Official
 
 This repository contains MATLAB implementations for the paper:
@@ -25,18 +26,22 @@ cauchy_noise.m
 
 multivariate_t_noise.m
 
-2. Single-Target Tracking (Section V.B)
-Algorithms: Same as Scenario 1
+```markdown
+## 2. Single-Target Tracking (Section V.B)
 
-Execution
+**Algorithms**  
+Same as Scenario 1
 
-matlab
+**Execution**
+```matlab
 main();             % Reproduce all Section V-B results  
-main_diff_sigma();  % Generate Fig.10 RMSE plots  
-3. Real-World SOC Estimation (Section V.C)
+main_diff_sigma();  % Generate Fig.10 RMSE plots
+
+```markdown
+## 3. Real-World SOC Estimation (Section V.C)
 Execution
 
-matlab
+```matlab
 UKF_results.m       % Reproduce all Section V-C results
 
 For more details, please refer to the README.md files inside each scenario folder if available.
