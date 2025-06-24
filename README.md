@@ -19,14 +19,14 @@ It includes three experimental scenarios:
 **Execution**
 ```matlab
 main();             % Reproduce all Section V-A results  
-main_diff_sigma();  % Generate Fig.3 kernel scale plots  
+main_diff_sigma();  % Generate Fig.3 kernel scale plots
+```
 Noise generation
 
 cauchy_noise.m
-
 multivariate_t_noise.m
 
-```markdown
+
 ## 2. Single-Target Tracking (Section V.B)
 
 **Algorithms**  
@@ -36,12 +36,12 @@ Same as Scenario 1
 ```matlab
 main();             % Reproduce all Section V-B results  
 main_diff_sigma();  % Generate Fig.10 RMSE plots
+```
 
-```markdown
 ## 3. Real-World SOC Estimation (Section V.C)
-Execution
 
+**Execution**
 ```matlab
 UKF_results.m       % Reproduce all Section V-C results
-
+```
 For more details, please refer to the README.md files inside each scenario folder if available.
