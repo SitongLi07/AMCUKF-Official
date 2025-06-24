@@ -45,4 +45,4 @@ main_diff_sigma();  % Generate Fig.10 RMSE plots
 ```matlab
 UKF_results.m       % Reproduce all Section V-C results
 ```
-For more details, please refer to the README.md files inside each scenario folder if available.
+For more details, please refer to the README.m files inside each scenario folder if available.
