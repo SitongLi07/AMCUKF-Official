@@ -21,7 +21,7 @@ It includes three experimental scenarios:
 main();             % Reproduce all Section V-A results  
 main_diff_sigma();  % Generate Fig.3 kernel scale plots
 ```
-Noise generation
+**Noise generation**
 
 cauchy_noise.m
 
